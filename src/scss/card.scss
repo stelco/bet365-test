@@ -113,5 +113,8 @@
             .__description {
                 align-self: flex-start;
                 flex-grow: 1;
+                p {
+                    color:#fff;
+                }
             }
         }
