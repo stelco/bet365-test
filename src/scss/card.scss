@@ -118,3 +118,10 @@
                 }
             }
         }
+
+        @media (max-width: 768px) {
+            .__image {
+                height: 221px!important;
+                max-height: 320px;
+            }
+        }

@@ -1,8 +1,9 @@
 .container {
   position: absolute;
   left: 38px;
+  right: 38px;
   top: 42px;
-  width: 1132px;
+  max-width: 1132px;
   /* Smart layout */
   display: flex;
   flex-direction: row;
@@ -15,4 +16,11 @@
   border-radius: 32px;
   opacity: 1;
   background: #23252E;
+}
+
+@media (max-width: 768px) {
+  .container {
+    background: transparent;
+    padding: 0;
+  }
 }
