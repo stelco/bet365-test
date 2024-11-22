@@ -1,0 +1,18 @@
+.container {
+  position: absolute;
+  left: 38px;
+  top: 42px;
+  width: 1132px;
+  /* Smart layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px 60px;
+  padding: 60px 0;
+  flex-wrap: wrap;
+  align-content: center;
+  /* styles */
+  border-radius: 32px;
+  opacity: 1;
+  background: #23252E;
+}

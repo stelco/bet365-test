@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap) format('woff');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@import './scss/button.scss';
+@import './scss/card.scss';
+
+$primaryColor: rgba(255, 255, 255, 0.8);
+$secondaryColor: #F1A25D;
+$accentColor: #8C6CEB;
+$fontFamily: 'Inter', sans-serif;
+
+body, button {
+    margin: 0;
+    font-family: $fontFamily;
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, p {
+    letter-spacing: 0em;
+    line-height: normal;
+    //override agent styles
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 150%;
+    color: $primaryColor;
+}
+
+h2 {
+    font-size: 28px;
+    color: $secondaryColor;
+}
+
+h4 {
+    font-size: 18px;
+    color: $primaryColor;
+}
