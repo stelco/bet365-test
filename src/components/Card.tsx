@@ -54,6 +54,9 @@ const Card: React.FC<Props> = ({ cardData }) => {
                 {item.buttonText}
               </Button>
             )}
+            {!item.isButton && (
+              <>{item.buttonText}</>
+            )}
           </div>
         </div>
       ))}
