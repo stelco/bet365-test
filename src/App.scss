@@ -2,7 +2,6 @@
   position: absolute;
   left: 38px;
   right: 38px;
-  top: 42px;
   max-width: 1132px;
   /* Smart layout */
   display: flex;
@@ -17,6 +16,13 @@
   opacity: 1;
   background: #23252E;
 }
+
+.header {
+  margin: 20px 50px;
+  h1, p {
+    color: #23252E;
+  }
+} 
 
 @media (max-width: 768px) {
   .container {
